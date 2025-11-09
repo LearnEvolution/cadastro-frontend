@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL // <-- URL pública da sua API no Render
-})
+  baseURL: 'https://cadastro-api-jctq.onrender.com' //  URL direta do Render
+});
 
-export default api 
+export default api;
